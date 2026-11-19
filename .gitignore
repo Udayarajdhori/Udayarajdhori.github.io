@@ -1,0 +1,7 @@
+# originals kept private on this PC — the site uses the copies in assets/
+/*.pdf
+/*.jpeg
+/*.jpg
+.claude/
+tools/
+__pycache__/

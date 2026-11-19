@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Udayaraj Dhori — AI & ML Engineer</title>
+<meta name="description" content="Portfolio of Udayaraj Dhori — AI & ML engineer, full-stack developer and data analyst from Bengaluru.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="loading">
+
+<!-- ============ LOADER ============ -->
+<div id="loader">
+  <div class="ld-top"><span>INITIALIZING SYSTEM</span><span id="ld-clock">00:00:00</span></div>
+  <div class="ld-center">
+    <h1 class="ld-name">UDAYARAJ <span>DHORI</span></h1>
+    <p class="ld-sub">PORTFOLIO // AI &amp; ML ENGINEER</p>
+    <div class="ld-pct"><span id="ld-num">0</span>%</div>
+  </div>
+  <div class="ld-bottom">
+    <div class="ld-bar"><i id="ld-fill"></i></div>
+    <div class="ld-row"><span id="ld-status">LOADING MODULES...</span><span>BENGALURU, IN</span></div>
+  </div>
+</div>
+
+<!-- ============ NAV ============ -->
+<header id="nav">
+  <a href="#home" class="logo">Udayaraj<span>.</span></a>
+  <nav>
+    <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#expertise">Expertise</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#certifications">Certifications</a><a href="#contact">Contact</a>
+  </nav>
+  <a href="#contact" class="btn-hire">Hire Me</a>
+  <button class="burger" aria-label="Menu"><i></i><i></i></button>
+</header>
+
+<!-- ============ HERO (scroll scrub) ============ -->
+<section id="home" class="hero-wrap">
+  <div class="hero">
+    <div class="hero-light"></div>
+    <div class="hero-photos">
+      <img src="assets/img/hero-cut.webp" alt="Udayaraj Dhori" class="hp hp1">
+      <img src="assets/img/profile-cut.webp" alt="Udayaraj Dhori at DSCE" class="hp hp2">
+      <canvas id="hero-seq" class="hp hp-seq" aria-label="Udayaraj Dhori turning around"></canvas>
+    </div>
+    <div class="hero-left">
+      <p class="hi">HI, I'M <u>UDAYARAJ</u></p>
+      <div class="titles">
+        <h2 class="t active" data-i="0">AI &amp; ML<br>ENGINEER</h2>
+        <h2 class="t" data-i="1">FULL STACK<br>DEVELOPER</h2>
+        <h2 class="t" data-i="2">DATA<br>ANALYST</h2>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="desc active" data-i="0"><p class="mono">// TURNING DATA INTO DECISIONS</p><p>Building deep-learning models, CNN classifiers and predictive systems with TensorFlow, Keras &amp; OpenCV.</p></div>
+      <div class="desc" data-i="1"><p class="mono">// SHIPPING USABLE PRODUCTS</p><p>Responsive web apps with Flask, React.js, MongoDB &amp; MySQL — from dashboards to auth flows.</p></div>
+      <div class="desc" data-i="2"><p class="mono">// INSIGHT ENGINEERING</p><p>Cleaning, exploring and forecasting business data with SQL, Python, Power BI &amp; Tableau.</p></div>
+    </div>
+    <div class="hero-cta">
+      <a href="#projects" class="btn light">View My Work</a>
+      <a href="#contact" class="btn dark">Contact Me</a>
+    </div>
+    <p class="scroll-hint mono">↓ SCROLL TO SCRUB TIMELINE</p>
+    <div class="hero-progress"><i id="hero-prog"></i></div>
+  </div>
+</section>
+
+<main>
+<!-- ============ ABOUT ============ -->
+<section id="about" class="sec">
+  <div class="about-grid">
+    <div class="profile-card tilt">
+      <img src="assets/img/profile-cut.webp" alt="Udayaraj Dhori">
+      <div class="badge"><span class="dot"></span>OPEN TO OPPORTUNITIES <em>2026</em></div>
+    </div>
+    <div class="about-text reveal">
+      <p class="tag">◉ // SYSTEM PROFILE</p>
+      <h2 class="big">Hello, I'm<br><span class="grad">Udayaraj Dhori</span></h2>
+      <p class="lead">An AI &amp; ML engineer and <b>2026 B.E. graduate</b> in Artificial Intelligence &amp; Machine Learning from <b>Dayananda Sagar College of Engineering</b>, Bengaluru, with internship experience in Full-Stack Development and Robotics &amp; Machine Learning. I build web applications, predictive models and analytics dashboards — with a strong focus on problem-solving and innovation.</p>
+      <div class="stats">
+        <div><b>AI &amp; ML</b><span>Core Focus</span></div>
+        <div><b>2</b><span>Internships</span></div>
+        <div><b>10+</b><span>Certifications</span></div>
+        <div><b>90%+</b><span>CNN Accuracy</span></div>
+      </div>
+      <div class="langs mono">LANG :: Kannada (Native) · Hindi · English</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section id="skills" class="sec center">
+  <p class="tag reveal">◉ // TECHNICAL STACK</p>
+  <h2 class="h reveal">Technologies I Work With</h2>
+  <p class="sub reveal">AI/ML, full-stack web development, data analytics and IoT — the toolkit behind every build.</p>
+  <div class="marquee"><div class="track" id="m1"></div></div>
+  <div class="marquee rev"><div class="track" id="m2"></div></div>
+  <div class="levels reveal" id="levels"></div>
+</section>
+
+<!-- ============ EXPERTISE ============ -->
+<section id="expertise" class="sec center">
+  <p class="tag reveal">◉ // ENGINEERING ROADMAP</p>
+  <h2 class="h reveal">Core Execution Root Map</h2>
+  <div class="roots">
+    <article class="root reveal"><p class="mono">// ROOT 01</p><h3>Machine Learning &amp; Deep Learning</h3><p>CNN classifiers, anomaly detection, sensor calibration and predictive models.</p><span class="chip">TensorFlow &amp; Keras</span></article>
+    <article class="root reveal"><p class="mono">// ROOT 02</p><h3>Full-Stack Development</h3><p>Responsive dashboards, role-based auth and REST back-ends wired to real databases.</p><span class="chip">Flask &amp; React</span></article>
+    <article class="root reveal"><p class="mono">// ROOT 03</p><h3>Data Analytics &amp; BI</h3><p>EDA, SQL analysis, forecasting and interactive business dashboards.</p><span class="chip">Power BI &amp; SQL</span></article>
+    <article class="root reveal"><p class="mono">// ROOT 04</p><h3>IoT &amp; Robotics</h3><p>Raspberry Pi &amp; Arduino systems with multi-sensor real-time monitoring.</p><span class="chip">Raspberry Pi &amp; Arduino</span></article>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE ============ -->
+<section id="experience" class="sec center">
+  <p class="tag reveal">◉ // EXECUTION LOG</p>
+  <h2 class="h reveal">Work Experience</h2>
+  <div class="timeline">
+    <article class="job reveal">
+      <div class="job-head"><div><h3>Robotics, Data &amp; ML Intern</h3><p class="co">Techmiya Solutions</p></div><span class="mono date">07/2025 — 10/2025</span></div>
+      <ul>
+        <li>Developed robotics automation solutions on Raspberry Pi, integrating <b>5+ sensors</b> for real-time monitoring.</li>
+        <li>Collected and processed <b>1,000+ sensor records</b> to support ML model development.</li>
+        <li>Built and evaluated <b>3 ML models</b> for sensor calibration, anomaly detection and predictive analytics.</li>
+        <li>Created visualization dashboards to monitor system performance; collaborated with a team of 4+.</li>
+      </ul>
+    </article>
+    <article class="job reveal">
+      <div class="job-head"><div><h3>Full-Stack Development Intern</h3><p class="co">Neuvera Infotech</p></div><span class="mono date">07/2024 — 11/2024</span></div>
+      <ul>
+        <li>Developed responsive admin dashboard components with HTML, CSS and JavaScript.</li>
+        <li>Worked with the UI/UX team to implement interactive workflows and improve usability.</li>
+        <li>Integrated <b>MongoDB</b> for storage, retrieval and management of application records.</li>
+        <li>Debugged, tested and shipped feature enhancements following SDLC practices.</li>
+      </ul>
+    </article>
+    <article class="job reveal">
+      <div class="job-head"><div><h3>B.E. — Artificial Intelligence &amp; Machine Learning</h3><p class="co">Dayananda Sagar College of Engineering, Bengaluru · Graduated 2026</p></div><span class="mono date">2022 — 2026</span></div>
+      <ul><li>Projects across Deep Learning, IoT, Data Analytics and Full-Stack Development. PUC (PCMB) — Oxford PU Science College, Vijayapura · <b>91%</b>.</li></ul>
+    </article>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section id="projects" class="sec center">
+  <p class="tag reveal">◉ // PORTFOLIO WORK</p>
+  <h2 class="h reveal">Featured Engineering Projects</h2>
+  <div class="carousel">
+    <button class="nav-btn prev" aria-label="Previous">←</button>
+    <div class="cards" id="cards">
+      <article class="pcard"><div class="ph"><span class="mono">// PROJECT 01</span><span class="pill">Deep Learning</span></div><h3>Eye Disease Detection Web App</h3><p>CNN model achieving <b>90%+ accuracy</b>, trained on 1,000+ medical images to classify Cataract, Glaucoma and Conjunctivitis — served through a Flask app for real-time predictions.</p><div class="stack"><span>TensorFlow</span><span>CNN</span><span>Flask</span><span>OpenCV</span></div><a class="code" href="https://github.com/Udayarajdhori" target="_blank" rel="noopener">CODE →</a></article>
+      <article class="pcard"><div class="ph"><span class="mono">// PROJECT 02</span><span class="pill">IoT · Sensors</span></div><h3>PureFlow — Water Quality Analysis</h3><p>IoT system for real-time water monitoring — pH, turbidity, DO, temperature and level sensors on Arduino with calibration and threshold-based alerts.</p><div class="stack"><span>Arduino</span><span>Sensors</span><span>Python</span></div><a class="code" href="https://github.com/Udayarajdhori" target="_blank" rel="noopener">CODE →</a></article>
+      <article class="pcard"><div class="ph"><span class="mono">// PROJECT 03</span><span class="pill">Business Intelligence</span></div><h3>Market Analysis Dashboard</h3><p>Data cleaning and EDA on business datasets, customer-behaviour and sales-trend analysis with SQL &amp; Python, plus interactive Power BI dashboards with forecasting.</p><div class="stack"><span>Power BI</span><span>SQL</span><span>Python</span></div><a class="code" href="https://github.com/Udayarajdhori" target="_blank" rel="noopener">CODE →</a></article>
+      <article class="pcard"><div class="ph"><span class="mono">// PROJECT 04</span><span class="pill">Full Stack</span></div><h3>Blood Bank Management System</h3><p>Web app for donor registration and blood inventory, hospital request tracking, role-based authentication and a normalized database design.</p><div class="stack"><span>Flask</span><span>MySQL</span><span>Auth</span></div><a class="code" href="https://github.com/Udayarajdhori" target="_blank" rel="noopener">CODE →</a></article>
+    </div>
+    <button class="nav-btn next" aria-label="Next">→</button>
+  </div>
+  <div class="dots" id="dots"></div>
+</section>
+
+<!-- ============ CERTIFICATIONS ============ -->
+<section id="certifications" class="sec center">
+  <p class="tag reveal">◉ // VERIFIED CREDENTIALS</p>
+  <h2 class="h reveal">Certifications</h2>
+  <div class="certs" id="certs"></div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact" class="sec">
+  <div class="contact-grid">
+    <div class="dispatch reveal">
+      <p class="mono">// LIVE DISPATCH NODE <span class="dot"></span></p>
+      <h2>Let's Build Something <span class="grad">Exceptional.</span></h2>
+      <p class="muted">Fill out the transmission form or preview your live payload stream directly below.</p>
+      <pre class="payload"><span class="c">// payload_preview.json</span>
+sender:  <b id="pv-name">"[Awaiting Name]"</b>
+email:   <b id="pv-email">"[Awaiting Email]"</b>
+message: <b id="pv-msg">"[Awaiting Message]"</b></pre>
+      <div class="socials">
+        <a href="https://github.com/Udayarajdhori" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/udayaraj-dhori-341099275/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:udayarajdhori@gmail.com">Email</a>
+        <a href="assets/resume.pdf" target="_blank">Resume</a>
+      </div>
+    </div>
+    <form class="cform reveal" id="cform">
+      <div class="row"><input id="f-first" placeholder="First Name" required><input id="f-last" placeholder="Last Name"></div>
+      <input id="f-email" type="email" placeholder="Email Address" required>
+      <textarea id="f-msg" rows="6" placeholder="Type your message here..." required></textarea>
+      <label class="chk"><input type="checkbox" required> I give permission to contact me at this email address.</label>
+      <button class="btn light" type="submit">Send Message →</button>
+      <p id="f-status" class="f-status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer id="footer">
+  <div class="ghost">CONTACT</div>
+  <div class="foot-row mono">
+    <div><b>// System Architecture</b><br>AI &amp; Machine Learning<br>Full-Stack Web Engineering<br>Data Analytics &amp; IoT</div>
+    <div class="mid"><b>// Status</b><br><span class="green">Open to Opportunities</span><br><a href="#projects">View Work</a></div>
+    <div class="r"><b>// Region</b><br>Bengaluru, India<br>IST (UTC+5:30)</div>
+  </div>
+  <h2 class="giant" id="giant">UDAYARAJ</h2>
+  <div class="foot-bottom mono">
+    <div><b>Contact Transmission</b><br>© 2026 Udayaraj Dhori · Built with HTML, CSS &amp; JS</div>
+    <a href="mailto:udayarajdhori@gmail.com">udayarajdhori@gmail.com</a>
+    <a href="#home">Back to Top ↑</a>
+  </div>
+</footer>
+
+<!-- lightbox -->
+<div id="lightbox"><button aria-label="Close">✕</button><img alt=""><div class="lb-meta"><b></b><a target="_blank">Open PDF ↗</a></div></div>
+
+<script src="script.js"></script>
+</body>
+</html>
