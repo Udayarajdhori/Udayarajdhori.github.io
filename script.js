@@ -73,7 +73,9 @@ function drawSeq(i) {
   seqCtx.clearRect(0, 0, cw, ch);
   seqCtx.drawImage(img, (cw - w) / 2, (ch - h) / 2, w, h);
 }
-fetch('assets/hero-frames/frames.json', { cache: 'no-cache' })
+// Off until a turn video is added: set HERO_SEQUENCE = true after running tools/make_hero_frames.py
+const HERO_SEQUENCE = false;
+(HERO_SEQUENCE ? fetch('assets/hero-frames/frames.json', { cache: 'no-cache' }) : Promise.reject())
   .then(r => r.ok ? r.json() : Promise.reject())
   .then(({ count, ext = 'jpg' }) => {
     seq.frames = Array.from({ length: count }, (_, i) => {
